@@ -1,0 +1,72 @@
+body {
+	background: url(https://ak.picdn.net/shutterstock/videos/1012349138/thumb/1.jpg);
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+/** Header section **/
+
+#title {
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	font-weight: 900;
+	margin: 40px 0 0 0;
+}
+
+/** Form section **/
+
+#survey-form {
+	background-color: rgba(30,70 ,83, .8);
+	max-width: 550px;
+	padding: 2.5rem;
+	text-align: left;
+	margin: auto;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-control {
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	border: 1px solid #ced4da;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+#dropdown {
+	color: #495057;
+	background-color: white;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+label {
+	display: flex;
+	margin-bottom: 10px;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+div p {
+	font-weight: 900;
+	font-size: 18px;
+}
+
+#submit {
+	width: 100%;
+	font-size: 18px;
+	display: block;
+	padding: 10px;
+	color: white;
+	border: 1px solid teal;
+	background-color: teal;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
